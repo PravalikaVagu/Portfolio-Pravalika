@@ -868,6 +868,17 @@ h1 span {
   font-weight: 800;
 }
 
+.cert-card{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: 0.3s ease;
+}
+
+.cert-card:hover{
+    transform: translateY(-5px);
+}
+
 .contact-card {
   display: grid;
   gap: 0.75rem;
